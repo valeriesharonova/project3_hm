@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+header {
+    height: 70px;
+    background: #1ABC9C;
+    padding: 20px 0;
+}
+.header-wrapper {
+    width: 90%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between; /* располагаем элементы равноудаленно друг от друга */
+    align-items: center; /* помещаем элементы по центру по вертикали */
+} 
+a {
+    font-size: 25px;
+    color: black;
+    text-decoration: none; /* убрать подчеркивание у ссылок */
+    margin-right: 20px;
+}
+.social-icon {
+    margin-right: 20px;
+}
+
+.text {
+    font-family: 'Inter', sans-serif;
+}
+
+.section1 {
+display: flex;
+
+}
+.item-left, .item-right {
+    width: 50%;
+    height: 694.38px;
+}
+.item-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.item-left {
+    background-image: url("./images/office.png");
+}
+.text-container {
+    padding-left: 62px;
+    padding-right: 70px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 23px;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}
+
+.text {
+    text-align: justify;
+}
+
+.section2 {
+    background-color: #DCFFEB;
+    padding: 124px 65px 126.26px 64px;
+}
+
+.arena {
+    width: 436.08px;
+    height: 376.65px;
+    background-image: url("./images/arena.png");
+    background-repeat: no-repeat;
+    display: flex;
+    align-items:flex-end;
+    color: white;
+}
+
+.arena-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title2 {
+    margin-bottom: 50.09px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+h3 {
+padding-left: 36px;
+font-size: 24px;
+font-family: 'Oswald', sans-serif;
+}
+
+p {
+padding-top: 16px;
+padding-left: 36px;
+padding-right: 36px;
+padding-bottom: 2px;
+font-size: 16px;
+font-family: 'Open Sans', sans-serif;
+}
